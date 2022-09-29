@@ -1,0 +1,50 @@
+<div>
+  <span id="badge">Lorem, ipsum dolor. </span>
+
+  <ion-card>
+    <ion-card-content class="ion-no-padding">
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="4">
+            <div id="avatar">
+              <div class="box">
+                <ion-avatar
+                  color="medium"
+                  size="small"
+                  style="margin-top: 10px"
+                >
+                  <img height="15" width="15" src="assets/person.svg" />
+                </ion-avatar>
+                <span id="username" style="margin-top: 15px">John Doe</span>
+              </div>
+            </div>
+          </ion-col>
+          <ion-col size="8">
+            <h3 style="font-weight: bold">Some teeh</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+              repellat saepe quam quia blanditiis similique alias ipsum eaque
+              aut dolores.
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-footer color="primary" class="ion-hide-md-down" e>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="6" *ngFor="let i of [1, 2, 3]">
+              <ion-col size="6"> <span>Hiskjfh</span> </ion-col>
+              <ion-col size="6"> <span>Yes</span> </ion-col>
+            </ion-col>
+
+            <ion-col size="6" *ngFor="let i of [1, 2, 3]">
+              <ion-col size="6"> <span>Hiskjfh</span> </ion-col>
+              <ion-col size="6"> <span>No</span> </ion-col>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-footer>
+    </ion-card-content>
+  </ion-card>
+</div>

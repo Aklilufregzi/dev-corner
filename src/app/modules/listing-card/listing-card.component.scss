@@ -1,0 +1,43 @@
+ion-footer {
+  margin: 0;
+  background-color: #3880ff;
+  color: white;
+}
+
+ion-card {
+  border-radius: 8px;
+}
+
+ion-card-header {
+  width: 10px;
+  box-shadow: none;
+}
+
+ion-badge {
+  width: 100px;
+}
+
+#avatar {
+  margin-left: 20%;
+}
+
+#badge {
+  margin-left: 7px;
+  margin-bottom: 0;
+  background-color: #2dd36f;
+  padding: 1%;
+  color: white;
+  border: 1px solid gray;
+}
+
+ion-avatar {
+  color: #fff;
+  background-color: #b9babf;
+
+  height: 50px;
+  width: 50px;
+}
+
+#username {
+  margin-top: 2%;
+}

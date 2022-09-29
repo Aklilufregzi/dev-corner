@@ -6,13 +6,63 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    {
+      title: 'Full Name',
+      url: '/folder/Inbox',
+      icon: 'person',
+      slot: 'start',
+      divide: false,
+    },
+    {
+      title: 'Account Settings',
+      url: '/folder/Outbox',
+      icon: 'settings',
+      slot: 'end',
+      divide: false,
+    },
+    {
+      title: 'Billing',
+      url: '/folder/Outbox',
+      icon: 'podium-outline',
+      slot: 'end',
+      divide: true,
+    },
+    {
+      title: 'Messaging',
+      url: '/folder/Outbox',
+      icon: 'chatbubbles',
+      slot: 'end',
+      divide: true,
+    },
+    {
+      title: 'Marketplace',
+      url: '/folder/marketplace',
+      icon: 'storefront-outline',
+      slot: 'end',
+      divide: false,
+    },
+    {
+      title: 'Bid History',
+      url: '/folder/Outbox',
+      icon: 'refresh-circle',
+      slot: 'end',
+      divide: false,
+    },
+    {
+      title: 'Active Bids',
+      url: '/folder/Outbox',
+      icon: 'flash-outline',
+      slot: 'end',
+      divide: true,
+    },
+
+    {
+      title: 'Sign Out',
+      url: '/folder/Outbox',
+      icon: 'log-out-outline',
+      slot: 'end',
+      divide: false,
+    },
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }

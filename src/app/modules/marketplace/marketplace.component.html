@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-hide-md-down" color="success" style="font-size: 32px"
+      >Marketplace Listings</ion-title
+    >
+
+    <ion-title class="ion-hide-md-up" color="success" style="font-size: 22px"
+      >Marketplace Listings</ion-title
+    >
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col
+        size-lg="4"
+        size-md="4"
+        size="12"
+        *ngFor="let i of [1, 2, 1, 1, 1]"
+      >
+        <app-listing-card></app-listing-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
